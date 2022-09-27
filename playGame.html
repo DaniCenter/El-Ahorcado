@@ -12,10 +12,16 @@
     <div class="container">
       <a href="index.html"><img src="img/logo.svg" alt="logo" /></a>
     </div>
-    <div class="btns-container">
-      <div class="btns">
-        <a class="btn" href="playGame.html">Iniciar Juego</a>
-        <a class="btn" href="newWord.html">Agregar nueva palabra</a>
+    <div class="container container-canvas">
+      <canvas id="canvas"></canvas>
     </div>
+    <div class="container letras"></div>
+    <div class="btns-newWord">
+      <div class="btns">
+        <a href="#" class="btn" onclick="reiniciar()">Reiniciar</a>
+        <a class="btn" href="index.html">Cancelar</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>
